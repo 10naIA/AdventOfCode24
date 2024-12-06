@@ -32,7 +32,7 @@ class IdNumbers:
 
 def calc_all_distances():
     numbers = IdNumbers()
-    numbers.read_input("input.txt")
+    numbers.read_input("input1.txt")
     numbers.calc_distances()
     numbers.get_tot_distance()
 
